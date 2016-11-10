@@ -1,0 +1,29 @@
+# depslib dependency file v1.0
+1477245763 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/GTK/PrimoCapitoloMatematicaDiscreta/main.c
+	<stdio.h>
+	<stdlib.h>
+	<sys/queue.h>
+
+1478799268 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/main.c
+	<stdio.h>
+	<stdlib.h>
+	<math.h>
+	<time.h>
+	<generatoreEsercizi.h>
+	<struttureDati.h>
+	<risolutoreEsercizi.h>
+
+1478799837 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/generatoreEsercizi.c
+	<time.h>
+	<stdlib.h>
+	<stdio.h>
+	<string.h>
+	<struttureDati.h>
+
+1478447015 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/struttureDati.c
+
+1478799532 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/risolutoreEsercizi.c
+	<struttureDati.h>
+	<stdlib.h>
+	<stdio.h>
+
