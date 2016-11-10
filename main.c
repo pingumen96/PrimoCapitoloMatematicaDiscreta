@@ -14,6 +14,7 @@ Da inserire:
 [X] calcolo minimo comune multiplo
 [X] generatore esercizi
 [] risoluzione potenze grandi
+[] generazione e risoluzione RSA
 */
 
 int main() {
