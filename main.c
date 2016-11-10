@@ -13,6 +13,7 @@ Da inserire:
 [X] risoluzione equazioni diofantee
 [X] calcolo minimo comune multiplo
 [X] generatore esercizi
+[] risoluzione potenze grandi
 */
 
 int main() {
