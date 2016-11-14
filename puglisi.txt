@@ -1,0 +1,111 @@
+Esercitazione di Matematica Discreta
+
+Calcola il Massimo Comun Divisore delle seguenti coppie di numeri:
+MCD(1149, 1164) =
+MCD(716, 1426) =
+MCD(193, 559) =
+MCD(1745, 671) =
+MCD(1567, 845) =
+MCD(1542, 1734) =
+MCD(624, 1193) =
+MCD(13, 1485) =
+MCD(1369, 723) =
+MCD(1347, 1693) =
+MCD(443, 1086) =
+MCD(117, 1192) =
+MCD(537, 1647) =
+MCD(878, 874) =
+MCD(1120, 620) =
+MCD(225, 268) =
+MCD(135, 940) =
+MCD(1693, 680) =
+MCD(1851, 1437) =
+MCD(1350, 1417) =
+
+Risolvi le seguenti equazioni diofantee:
+34m + 43n = 150
+57m + 187n = 115
+142m + 156n = 37
+40m + 200n = 31
+77m + 117n = 174
+13m + 163n = 51
+86m + 82n = 23
+110m + 101n = 157
+2m + 193n = 188
+52m + 181n = 89
+20m + 166n = 132
+122m + 23n = 70
+36m + 116n = 177
+24m + 107n = 177
+54m + 135n = 93
+180m + 147n = 55
+30m + 184n = 88
+4m + 93n = 140
+113m + 46n = 132
+100m + 49n = 64
+
+Risolvi le seguenti equazioni congruenziali:
+39x = 19 mod 34
+22x = 40 mod 12
+41x = 27 mod 50
+18x = 50 mod 43
+46x = 5 mod 37
+38x = 34 mod 16
+44x = 16 mod 24
+33x = 21 mod 36
+22x = 33 mod 43
+5x = 35 mod 18
+20x = 25 mod 41
+1x = 46 mod 5
+6x = 38 mod 43
+28x = 7 mod 14
+8x = 2 mod 34
+22x = 39 mod 49
+32x = 34 mod 23
+25x = 16 mod 38
+13x = 37 mod 23
+48x = 43 mod 25
+
+Inverso moltiplicativo:
+Calcola l'inverso di [30] mod 12 in Z mod 12.
+Calcola l'inverso di [6] mod 35 in Z mod 35.
+Calcola l'inverso di [26] mod 23 in Z mod 23.
+Calcola l'inverso di [24] mod 33 in Z mod 33.
+Calcola l'inverso di [9] mod 41 in Z mod 41.
+Calcola l'inverso di [2] mod 48 in Z mod 48.
+Calcola l'inverso di [25] mod 15 in Z mod 15.
+Calcola l'inverso di [25] mod 41 in Z mod 41.
+Calcola l'inverso di [3] mod 43 in Z mod 43.
+Calcola l'inverso di [5] mod 39 in Z mod 39.
+Calcola l'inverso di [28] mod 17 in Z mod 17.
+Calcola l'inverso di [10] mod 22 in Z mod 22.
+Calcola l'inverso di [2] mod 8 in Z mod 8.
+Calcola l'inverso di [30] mod 26 in Z mod 26.
+Calcola l'inverso di [14] mod 35 in Z mod 35.
+Calcola l'inverso di [11] mod 23 in Z mod 23.
+Calcola l'inverso di [2] mod 22 in Z mod 22.
+Calcola l'inverso di [7] mod 17 in Z mod 17.
+Calcola l'inverso di [15] mod 4 in Z mod 4.
+Calcola l'inverso di [16] mod 48 in Z mod 48.
+
+Potenze grandi:
+Calcola il resto della divisione tra 13260^15 e 2.
+Calcola il resto della divisione tra 13189^24 e 48.
+Calcola il resto della divisione tra 49747^21 e 40.
+Calcola il resto della divisione tra 32611^21 e 32.
+Calcola il resto della divisione tra 35606^23 e 9.
+Calcola il resto della divisione tra 35635^30 e 6.
+Calcola il resto della divisione tra 43484^29 e 44.
+Calcola il resto della divisione tra 34409^9 e 44.
+Calcola il resto della divisione tra 22293^13 e 10.
+Calcola il resto della divisione tra 27895^30 e 17.
+Calcola il resto della divisione tra 3896^27 e 20.
+Calcola il resto della divisione tra 24667^9 e 47.
+Calcola il resto della divisione tra 3614^12 e 40.
+Calcola il resto della divisione tra 13819^18 e 26.
+Calcola il resto della divisione tra 49397^27 e 38.
+Calcola il resto della divisione tra 594^16 e 13.
+Calcola il resto della divisione tra 24907^23 e 16.
+Calcola il resto della divisione tra 47964^7 e 44.
+Calcola il resto della divisione tra 31582^11 e 34.
+Calcola il resto della divisione tra 16601^8 e 31.

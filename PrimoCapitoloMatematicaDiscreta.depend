@@ -4,7 +4,7 @@
 	<stdlib.h>
 	<sys/queue.h>
 
-1478799268 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/main.c
+1478806785 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/main.c
 	<stdio.h>
 	<stdlib.h>
 	<math.h>
@@ -22,7 +22,7 @@
 
 1478447015 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/struttureDati.c
 
-1478799532 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/risolutoreEsercizi.c
+1478805216 source:/home/srossi/Dropbox/Università/1° anno/Primo semestre/Attività parallela/Matematica discreta/PrimoCapitoloMatematicaDiscreta/risolutoreEsercizi.c
 	<struttureDati.h>
 	<stdlib.h>
 	<stdio.h>

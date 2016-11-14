@@ -42,7 +42,6 @@ Equazione generatoreEquazioneDiofantea() {
 }
 
 
-// solo per ora void
 Equazione generatoreEquazioneCongruenziale() {
     Equazione equazione;
     equazione.a = MIN_CONGRUENZA + rand() % (MAX_CONGRUENZA - MIN_CONGRUENZA + 1);
