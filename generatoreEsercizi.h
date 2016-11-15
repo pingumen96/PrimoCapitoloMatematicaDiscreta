@@ -10,5 +10,6 @@ Equazione generatoreEquazioneCongruenziale();
 Equazione generatoreEquazioneDiofantea();
 Equazione generatoreInverso();
 Potenza generatorePotenza();
+Rsa generatoreRsa();
 
 #endif // GENERATOREESERCIZI_H_INCLUDED
