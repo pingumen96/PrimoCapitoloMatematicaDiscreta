@@ -17,9 +17,16 @@
 #define MAX_BASE 50000
 #define MIN_ESPONENTE 5
 #define MAX_ESPONENTE 30
+#define QUANTITA_PRIMI 20
+#define MIN_MESSAGGIO_RSA 100000
+#define MAX_MESSAGGIO_RSA 999999999
 #define NOME_FILE 31
 
 // la creazione del seed fa effettuata una sola volta nel main
+
+
+// creazione array che contiene i primi 20 numeri primi
+unsigned short NUMERI_PRIMI[QUANTITA_PRIMI] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71};
 
 
 NumeriMcd generatoreMCD() {
@@ -69,6 +76,23 @@ Potenza generatorePotenza() {
 }
 
 
+Rsa generatoreRsa() {
+    Rsa rsa;
+    short i;
+
+    // generazione dei vari numeri
+    i = rand() % QUANTITA_PRIMI;
+    rsa.p = NUMERI_PRIMI[i];
+
+    i = rand() % QUANTITA_PRIMI;
+    rsa.q = NUMERI_PRIMI[i];
+
+    rsa.messaggio = MIN_MESSAGGIO_RSA + rand() % (MAX_MESSAGGIO_RSA - MIN_MESSAGGIO_RSA + 1);
+
+    return rsa;
+}
+
+
 void creazioneEserciziario(char nomeFile[NOME_FILE]) {
     int i;
     // creazione della struttura FILE
@@ -78,6 +102,7 @@ void creazioneEserciziario(char nomeFile[NOME_FILE]) {
     Equazione equazioneGenerata;
     NumeriMcd numeriMcd;
     Potenza potenzaGenerata;
+    Rsa rsa;
 
     // creazione del file
     fileEsercizi = fopen(strcat(nomeFile, ".txt"), "w+");
@@ -119,6 +144,13 @@ void creazioneEserciziario(char nomeFile[NOME_FILE]) {
         fprintf(fileEsercizi, "Calcola il resto della divisione tra %d^%d e %d.\n", potenzaGenerata.base, potenzaGenerata.esponente, potenzaGenerata.modulo);
     }
 
+    fprintf(fileEsercizi, "\nRSA:\n");
+
+    for(i = 0; i < 20; i++) {
+        rsa = generatoreRsa();
+        fprintf(fileEsercizi, "Utilizzando l’algoritmo RSA con p = %d e q = %d si spedisca il messaggio %d.\n", rsa.p, rsa.q, rsa.messaggio);
+    }
+
     fclose(fileEsercizi);
 
     printf("File creato correttamente!\n");
@@ -129,6 +161,7 @@ void sceltaEsercizio() {
     NumeriMcd numeriMcdGenerati;
     Equazione equazioneGenerata;
     Potenza potenzaGenerata;
+    Rsa rsaGenerato;
     char scelta, nomeFile[NOME_FILE];
     int numeroGenerazioni, i, esci = 0;
 
@@ -136,7 +169,7 @@ void sceltaEsercizio() {
 
     while(!esci) {
         printf("Scegli l'esercizio che vuoi generare:\n1. calcolo del Massimo Comun Divisore\n2. risoluzione di equazione diofantea\n3. risoluzione di equazione congruenziale\n");
-        printf("4. calcolo dell'inverso\n5. calcolo della congruenza di una potenza grande\n6. genera eserciziario\n");
+        printf("4. calcolo dell'inverso\n5. calcolo della congruenza di una potenza grande\n6. genera calcolo RSA\n7. genera eserciziario\n");
         scanf("%c", &scelta);
 
         switch(scelta) {
@@ -187,6 +220,16 @@ void sceltaEsercizio() {
 
             break;
         case '6':
+            // generazione esercizio RSA
+            printf("Quanti esercizi sull'RSA vuoi effettuare?\n");
+            scanf("%d", &numeroGenerazioni);
+
+            for(i = 0; i < numeroGenerazioni; i++) {
+                rsaGenerato = generatoreRsa();
+                printf("Utilizzando l’algoritmo RSA con p = %d e q = %d si spedisca il messaggio %d.\n", rsaGenerato.p, rsaGenerato.q, rsaGenerato.messaggio);
+            }
+            break;
+        case '7':
             // creazione file di testo con esercizi di diverso tipo
             printf("Che nome si vuole dare al file?\n");
             scanf("%30s", nomeFile);

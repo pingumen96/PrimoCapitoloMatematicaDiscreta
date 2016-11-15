@@ -18,10 +18,18 @@ typedef struct {
     int secondoNumero;
 } NumeriMcd;
 
+
 typedef struct {
     unsigned int modulo;
     unsigned int base;
     unsigned int esponente;
 } Potenza;
+
+
+typedef struct {
+    unsigned short p;
+    unsigned short q;
+    unsigned int messaggio;
+} Rsa;
 
 #endif // STRUTTUREDATI_H_INCLUDED
