@@ -17,7 +17,7 @@
 #define MAX_BASE 50000
 #define MIN_ESPONENTE 5
 #define MAX_ESPONENTE 30
-#define QUANTITA_PRIMI 20
+#define QUANTITA_PRIMI 10
 #define MIN_MESSAGGIO_RSA 100000
 #define MAX_MESSAGGIO_RSA 999999999
 #define NOME_FILE 31
@@ -26,7 +26,7 @@
 
 
 // creazione array che contiene i primi 20 numeri primi
-unsigned short NUMERI_PRIMI[QUANTITA_PRIMI] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29, 31, 37, 41, 43, 47, 53, 59, 61, 67, 71};
+unsigned short NUMERI_PRIMI[QUANTITA_PRIMI] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
 
 
 NumeriMcd generatoreMCD() {
