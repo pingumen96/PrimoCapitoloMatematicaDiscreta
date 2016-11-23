@@ -26,7 +26,7 @@
 
 
 // creazione array che contiene i primi 20 numeri primi
-unsigned short NUMERI_PRIMI[QUANTITA_PRIMI] = {2, 3, 5, 7, 11, 13, 17, 19, 23, 29};
+unsigned short NUMERI_PRIMI[QUANTITA_PRIMI] = {3, 5, 7, 11, 13, 17, 19, 23, 29, 31};
 
 
 NumeriMcd generatoreMCD() {
